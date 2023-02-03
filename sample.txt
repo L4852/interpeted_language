@@ -1,0 +1,30 @@
+int message = "Hello World!";
+
+if (message ~= "Hello World!", "Hello", "World", "HelloWorld!"){
+    message = "Wow!";
+}
+
+funct printHello(int hey){
+    print(hey);
+    return hey;
+}
+
+char letter;
+
+if (message eq "wow!"){
+    letter = 'w';
+}
+
+int super = 100;
+int notSuper = 50;
+
+if (notSuper lt super){
+    print("Hello Dog!");
+    printHello("Hello Dog!");
+}
+
+bool newSuper = false;
+if (not newSuper){
+    print("ok");
+}
+

@@ -1,0 +1,9 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+char* CONST_DIGITS = "0123456789";
+char* CONST_NUMERICAL = "0123456789.";
+char* CONST_IDENTIFIER = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_";
+char* CONST_OPERATORS = "+-*/";
+
+#endif
